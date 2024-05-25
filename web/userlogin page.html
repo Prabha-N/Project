@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<title>LOGIN PAGE</title>
+<link rel="stylesheet" type="text/css" href="login.css">
+<style type="text/css">
+body
+{
+background:url("./images/login pic.jpg");
+}
+fieldset
+{
+border-radius:10px;
+margin-right:500px;
+margin-left:500px;
+}
+input[type="SUBMIT"]
+{
+text-align:center;
+font-size:15px;
+border:1px solid black ;
+border-radius:30px;
+background-color:grey;
+color:black;
+padding:8px;
+}
+input[type="SUBMIT"]:hover
+{
+background-color:pink;
+text-decoration:underline;
+color:white;
+}
+img
+{
+border:none;
+border-radius:100px;
+height:100px;
+width:100px;
+}
+input[type="text"], input[type="password"]
+{
+ border:none;
+ height:30px;
+ background:transparent;
+ border-bottom: groove 2px;
+}
+</style>
+</head>
+<body>
+<form action="user jsp.jsp" method="post">
+<fieldset>
+    <legend>
+    <img src="./images/icon pic.png" height=100 width=100>
+    </legend>
+<center>USER NAME:<br><input type="text" name="uname" placeholder="Enter UserName" required></center><br><br>
+<center>PASSWORD:<br><input type="password" name="password" placeholder="Enter Password" required></center><br><br>
+<center><a href="register form.html">Register here</a></center><br><br>
+<center><input type="SUBMIT" class="btn btn-success btn-block" value="SUBMIT"></center>    
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Forget Password</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">Reset Password</a>
+</fieldset>    
+</form>
+</body>
+</html>
